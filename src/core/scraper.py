@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+import json
+import xml.etree.ElementTree as ET
 
 class Scraper:
     def __init__(self):
